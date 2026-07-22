@@ -1,13 +1,13 @@
 {
 	"name": "WNC Pay",
 	"slug": "wncpay",
-	"version": "0.2.0",
-	"download_url": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/releases/wncpay-0.2.0.zip",
+	"version": "0.3.0",
+	"download_url": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/releases/wncpay-0.3.0.zip",
 	"homepage": "https://github.com/WebNetCom/wncpay-update",
 	"requires": "6.0",
 	"tested": "7.0",
 	"requires_php": "8.0",
-	"last_updated": "2026-07-21",
+	"last_updated": "2026-07-22",
 	"author": "WebNetCom",
 	"author_homepage": "https://webnetcom.co.il",
 	"sections": {
