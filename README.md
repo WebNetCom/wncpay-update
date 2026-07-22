@@ -7,6 +7,10 @@ Public **update channel** for the WNC Pay WordPress plugin. This repository inte
 
 Sites running WNC Pay check `wncpay.json` for new versions and install updates through the native WordPress update UI. The plugin source is maintained in a private repository by [WebNetCom](https://webnetcom.co.il).
 
+## For the site's web developer
+
+Read the **[Web Developer Guide](WEB-DEVELOPER-GUIDE.md)** (English + עברית) — what the plugin does, your checklist (product flags, WP Rocket, gift pages, enabling the gateway), and how paid/deposit orders behave.
+
 ## For site administrators
 
 Nothing to do here — updates appear on your site's Plugins screen automatically. To install manually, download the latest ZIP from `releases/` and upload it via Plugins → Add New → Upload Plugin.
