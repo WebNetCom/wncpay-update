@@ -12,6 +12,6 @@
 	"author_homepage": "https://webnetcom.co.il",
 	"sections": {
 		"description": "Embed elements from your connected platform — gift card designer and more — via shortcode, Elementor widget, or block. The plugin only places secure embeds; all checkout and payment flows run on the platform.",
-		"changelog": "<h4>0.2.0</h4><ul><li>Native WordPress updates via the public wncpay-update channel.</li></ul><h4>0.1.0</h4><ul><li>First release: settings page, embed core with auto-height and WPML-aware locale, Gift Card Designer as Elementor widget + shortcode + block.</li></ul>"
+		"changelog": "<h4>0.3.0</h4><ul><li>WooCommerce payment gateway: appears under WooCommerce → Settings → Payments; checkout redirects to the platform's secure payment page; orders completed by signed platform webhooks. ILS carts, HPOS compatible.</li><li>Connection status indicator on Settings → WNC Pay.</li></ul><h4>0.2.0</h4><ul><li>Native WordPress updates via the public wncpay-update channel.</li></ul><h4>0.1.0</h4><ul><li>First release: settings page, embed core with auto-height and WPML-aware locale, Gift Card Designer as Elementor widget + shortcode + block.</li></ul>"
 	}
 }
