@@ -39,6 +39,13 @@ The plugin's job ends at rendering embeds and handing checkout to the platform. 
 
 ---
 
+
+### New in 0.5.0–0.6.0 (2026-08-04)
+
+- **Test mode** (gateway setting, WooCommerce → Settings → Payments → WNC Pay): checkouts run against the PayMe sandbox — the PayMe test card is approved for real, no actual money moves, and the platform stamps everything [TEST]. A yellow TEST banner shows at checkout while enabled. Use it to validate the full flow end-to-end, then turn it OFF before go-live.
+- **Two new embeds** (Elementor "WNC Pay" category or shortcodes): `[wncpay_trip_planner]` — the interactive trip-builder wizard; `[wncpay_tour_catalog]` — browse and pick multiple tours in one place. Use these instead of linking visitors off-site: point the site's "Build your itinerary" button at a page hosting `[wncpay_trip_planner]`, and "Get more info" buttons at a page hosting `[wncpay_tour_catalog]`.
+- **Cross-site failover** (automatic, nothing to configure): if a browser privacy setting or blocker prevents an embed from loading, it replaces itself with an "Open it in a new tab" card instead of a blank frame.
+
 ## עברית
 
 ### מה מותקן באתר
@@ -71,3 +78,9 @@ The plugin's job ends at rendering embeds and handing checkout to the platform. 
 ### גבולות אחריות
 
 תפקיד התוסף מסתיים בהצגת ה-embeds ובהעברת ה-checkout לפלטפורמה. **עיצוב ומיקום** של האלמנטים: אתם. **כל מה שבתוך הפריימים וזרימת התשלום** (עיצובים, checkout, קבלות, מסמכים): מפעיל הפלטפורמה. אם embed לא מציג כלום: קודם בודקים את אינדיקטור החיבור בעמוד ההגדרות, אחר כך את קונסולת הדפדפן, ואז פונים למפעיל.
+
+### חדש ב-0.5.0–0.6.0 (2026-08-04)
+
+- **מצב בדיקה** (הגדרת שער התשלום): הזמנות רצות מול סביבת ה-Sandbox של PayMe — כרטיס הבדיקה מאושר באמת, שום כסף אמיתי לא זז, והפלטפורמה מסמנת הכול [TEST]. באנר צהוב מוצג בצ'קאאוט כשהמצב פעיל. השתמשו בו לבדיקת הזרימה מקצה לקצה, וכבו לפני עלייה לאוויר.
+- **שני embeds חדשים** (ווידג'ט Elementor או shortcode): ‏`[wncpay_trip_planner]` — אשף בניית מסלול אינטראקטיבי; ‏`[wncpay_tour_catalog]` — קטלוג טיולים שבו הלקוח בוחר כמה פריטים במקום אחד. השתמשו בהם במקום להפנות מבקרים לאתר חיצוני: כפתור "Build your itinerary" מפנה לעמוד עם ה-planner, וכפתורי "Get more info" לעמוד עם הקטלוג.
+- **Failover אוטומטי**: אם דפדפן חוסם את ה-embed, הוא מוחלף מעצמו בכרטיס "פתיחה בלשונית חדשה" במקום מסגרת ריקה. אין מה להגדיר.
