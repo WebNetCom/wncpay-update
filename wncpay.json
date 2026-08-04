@@ -1,21 +1,21 @@
 {
-  "name": "WNC Pay",
-  "slug": "wncpay",
-  "version": "0.5.0",
-  "download_url": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/releases/wncpay-0.5.0.zip",
-  "homepage": "https://github.com/WebNetCom/wncpay-update",
-  "requires": "6.0",
-  "tested": "7.0",
-  "requires_php": "8.0",
-  "last_updated": "2026-08-04",
-  "author": "WebNetCom",
-  "author_homepage": "https://webnetcom.co.il",
-  "sections": {
-    "description": "Embed elements from your connected platform — gift card designer and more — via shortcode, Elementor widget, or block. The plugin only places secure embeds; all checkout and payment flows run on the platform.",
-    "changelog": "<h4>0.6.0</h4><ul><li>New embeds: [wncpay_trip_planner] (trip-builder wizard) and [wncpay_tour_catalog] (multi-tour interactive catalog) — host the platform inside the site.</li><li>Cross-site failover: a blocked embed swaps itself for an 'Open in a new tab' card instead of a blank frame.</li></ul><h4>0.5.0</h4><ul><li>Test mode (gateway setting): checkouts are sent as TEST transactions — processed against the PayMe sandbox, the PayMe test card approves for real, no actual money moves, everything is stamped [TEST] on the platform and excluded from revenue and the CRM. A yellow TEST banner shows at checkout while enabled. Turn OFF before go-live.</li></ul><h4>0.4.0</h4><ul><li>Deposit flow (configurable %, default 30) for tours pending office availability confirmation, with checkout stipulation; order completes when the balance webhook arrives.</li><li>Per-product \"full payment\" checkbox for instant items.</li><li>Required preferred-date question at checkout for tour items.</li></ul><h4>0.3.6</h4><ul><li>Traveller count sent with each gateway order (Appointments persons or quantities) — fills the CRM deal's Amount of People automatically.</li></ul><h4>0.3.5</h4><ul><li>Full shortcode reference + examples on Settings → WNC Pay.</li><li>Fix: dealid shortcode attribute now reaches the platform correctly.</li></ul><h4>0.3.4</h4><ul><li>Multi-item carts use the platform's multiple-tours document variant.</li></ul><h4>0.3.3</h4><ul><li>Order-received page + customer emails link to the platform account after a WNC Pay payment.</li></ul><h4>0.3.2</h4><ul><li>Brand logo across the gateway checkout, settings page and update screens.</li></ul><h4>0.3.0</h4><ul><li>WooCommerce payment gateway: appears under WooCommerce → Settings → Payments; checkout redirects to the platform's secure payment page; orders completed by signed platform webhooks. ILS carts, HPOS compatible.</li><li>Connection status indicator on Settings → WNC Pay.</li></ul><h4>0.2.0</h4><ul><li>Native WordPress updates via the public wncpay-update channel.</li></ul><h4>0.1.0</h4><ul><li>First release: settings page, embed core with auto-height and WPML-aware locale, Gift Card Designer as Elementor widget + shortcode + block.</li></ul>"
-  },
-  "icons": {
-    "1x": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/assets/icon-128.png",
-    "2x": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/assets/icon-256.png"
-  }
+	"name": "WNC Pay",
+	"slug": "wncpay",
+	"version": "0.6.0",
+	"download_url": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/releases/wncpay-0.6.0.zip",
+	"homepage": "https://github.com/WebNetCom/wncpay-update",
+	"requires": "6.0",
+	"tested": "7.0",
+	"requires_php": "8.0",
+	"last_updated": "2026-08-04",
+	"author": "WebNetCom",
+	"author_homepage": "https://webnetcom.co.il",
+	"sections": {
+		"description": "Embed elements from your connected platform — gift card designer and more — via shortcode, Elementor widget, or block. The plugin only places secure embeds; all checkout and payment flows run on the platform.",
+		"changelog": "<h4>0.6.0</h4><ul><li>New embeds: [wncpay_trip_planner] (trip-builder wizard) and [wncpay_tour_catalog] (multi-tour interactive catalog) — host the platform inside the site.</li><li>Cross-site failover: a blocked embed swaps itself for an 'Open in a new tab' card instead of a blank frame.</li></ul><h4>0.5.0</h4><ul><li>Test mode (gateway setting): checkouts are sent as TEST transactions — processed against the PayMe sandbox, the PayMe test card approves for real, no actual money moves, everything is stamped [TEST] on the platform and excluded from revenue and the CRM. A yellow TEST banner shows at checkout while enabled. Turn OFF before go-live.</li></ul><h4>0.4.0</h4><ul><li>Deposit flow (configurable %, default 30) for tours pending office availability confirmation, with checkout stipulation; order completes when the balance webhook arrives.</li><li>Per-product \"full payment\" checkbox for instant items.</li><li>Required preferred-date question at checkout for tour items.</li></ul><h4>0.3.6</h4><ul><li>Traveller count sent with each gateway order (Appointments persons or quantities) — fills the CRM deal's Amount of People automatically.</li></ul><h4>0.3.5</h4><ul><li>Full shortcode reference + examples on Settings → WNC Pay.</li><li>Fix: dealid shortcode attribute now reaches the platform correctly.</li></ul><h4>0.3.4</h4><ul><li>Multi-item carts use the platform's multiple-tours document variant.</li></ul><h4>0.3.3</h4><ul><li>Order-received page + customer emails link to the platform account after a WNC Pay payment.</li></ul><h4>0.3.2</h4><ul><li>Brand logo across the gateway checkout, settings page and update screens.</li></ul><h4>0.3.0</h4><ul><li>WooCommerce payment gateway: appears under WooCommerce → Settings → Payments; checkout redirects to the platform's secure payment page; orders completed by signed platform webhooks. ILS carts, HPOS compatible.</li><li>Connection status indicator on Settings → WNC Pay.</li></ul><h4>0.2.0</h4><ul><li>Native WordPress updates via the public wncpay-update channel.</li></ul><h4>0.1.0</h4><ul><li>First release: settings page, embed core with auto-height and WPML-aware locale, Gift Card Designer as Elementor widget + shortcode + block.</li></ul>"
+	},
+	"icons": {
+		"1x": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/assets/icon-128.png",
+		"2x": "https://raw.githubusercontent.com/WebNetCom/wncpay-update/main/assets/icon-256.png"
+	}
 }
